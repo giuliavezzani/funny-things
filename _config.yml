@@ -1,0 +1,67 @@
+baseurl: http://robotology.github.io/funny-things
+url: http://robotology.github.io/funny-things
+reading_time: true
+words_per_minute: 200
+
+# Site settings
+title: Funny Things
+subtitle: This is a quick captivating description
+email: alessandro.roncone@iit.it
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results), in your feed.xml site description, and in the about section in the bottom of your website."
+logo: yes
+tag: [icub,yarp,blinker,breather,funny things]
+documentation: http://robotology.github.io/funny-things/doxygen/doc/html/modules.html
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  navbar: 607d8b
+  navbar-dark: 45626f
+  secondary: eceff1  
+  text:
+    default: 333333
+    muted:   777777
+  bg:
+    default: ffffff
+    alt: f7f7f7
+    alt2: 607d8b
+
+# Team names, titles and social links
+authors:
+- name: Alessandro Roncone
+  link: http://alecive.github.io
+  pic: alecive
+  description: "Put here whatever description you want of yourself. Alessandro does not have a personal page, but instead his face links to his external personal website"
+  social:
+    - title: home
+      url: http://alecive.github.io
+    - title: github
+      url: http://github.com/alecive
+    - title: google-plus
+      url: https://plus.google.com/+AlessandroRoncone
+    - title: linkedin
+      url: it.linkedin.com/in/alessandroroncone/
+- name: Ugo Pattacini
+  single-page: pattacini
+  pic: pattacini
+  description: "Put here whatever description you want of yourself. Ugo has a single page hosted on this website: if you click on his face, you go to a themed page written in md."
+  social:
+    - title: home
+      url: http://www.iit.it/it/persone/ugo-pattacini.html
+    - title: github
+      url: http://github.com/pattacini
+    - title: google-plus
+      url: https://plus.google.com/+UgoPattacini
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: github
+    url: http://github.com/robotology/funny-things
+
+# Build settings
+markdown: kramdown
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title/
+#permalink: pretty
+
+# Amount of post to show on home page
+paginate: 4
